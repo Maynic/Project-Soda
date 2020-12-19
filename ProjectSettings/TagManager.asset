@@ -4,11 +4,19 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Car
   - MainCharacter
   - Destination
-  - Home
   - LevelManager
-  - Car
+  - SmartFinish
+  - LowSP
+  - Walker
+  - MenuPause
+  - SP_Bar
+  - Task2
+  - DieCar
+  - MenuWin
+  - MenuOver
   layers:
   - Default
   - TransparentFX
@@ -18,9 +26,9 @@ TagManager:
   - UI
   - 
   - 
-  - Environment
-  - 
-  - 
+  - car
+  - airwall
+  - postprocess
   - 
   - 
   - 

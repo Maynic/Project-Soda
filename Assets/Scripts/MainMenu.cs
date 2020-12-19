@@ -1,6 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.EventSystems;
+// using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 // public class SC_MainMenu : MonoBehaviour
@@ -16,6 +19,11 @@ public class MainMenu : MonoBehaviour
     {
         MainMenuButton();
 
+    }
+
+    void Update(){
+        // UnityEngine.UI.Button s = EventSystem.current.currentSelectedGameObject.GetComponent<Button>();
+        // s.Select();
     }
 
     public void PlayNowButton()

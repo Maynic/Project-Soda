@@ -17,6 +17,7 @@ public class LevelMenu : MonoBehaviour
         // MainMenuButton();
         mainB.Select();
         levelManager =  GameObject.FindGameObjectWithTag("LevelManager");
+        Time.timeScale = 1;
 
 
     }
@@ -26,26 +27,25 @@ public class LevelMenu : MonoBehaviour
         // Play Now Button has been pressed, here you can initialize your game (For example Load a Scene called GameLevel etc.)
         // levelManager.levelN = 1;
         levelManager.GetComponent<LevelManager>().levelN = 1;
-
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Level1");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Level 1");
         // UnityEngine.SceneManagement.SceneManager.LoadScene("Menu_Over");
     }
     public void Button_2()
     {
         levelManager.GetComponent<LevelManager>().levelN = 2;
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Level2");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Level 2");
         // UnityEngine.SceneManagement.SceneManager.LoadScene("Menu_Win");
 
     }
     public void Button_3()
     {
         levelManager.GetComponent<LevelManager>().levelN = 3;
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Level3");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Level 3");
     }
     public void Button_4()
     {
         levelManager.GetComponent<LevelManager>().levelN = 4;
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Level4");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Level 4");
     }
     // public void OptionButton()
     // {

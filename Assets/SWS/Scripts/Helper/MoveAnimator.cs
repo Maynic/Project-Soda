@@ -17,7 +17,7 @@ namespace SWS
     {
         //movement script references
         private splineMove sMove;
-        private NavMeshAgent nAgent;
+        // private NavMeshAgent nAgent;
         //Mecanim animator reference
         private Animator animator;
         //cached y-rotation on tweens
@@ -30,8 +30,8 @@ namespace SWS
             animator = GetComponentInChildren<Animator>();
 
             sMove = GetComponent<splineMove>();
-            if (!sMove)
-                nAgent = GetComponent<NavMeshAgent>();
+            // if (!sMove)
+            //     nAgent = GetComponent<NavMeshAgent>();
 
         }
 
@@ -49,16 +49,16 @@ namespace SWS
             //navmesh agents have their own type of movement which has to be calculated separately.
             if (sMove)
             {
-                speed = (sMove.tween == null || !sMove.tween.IsActive() || !sMove.tween.IsPlaying()) ? 0f : sMove.speed;
-                angle = (transform.eulerAngles.y - lastRotY) * 10;
-                lastRotY = transform.eulerAngles.y;
+            speed = (sMove.tween == null || !sMove.tween.IsActive() || !sMove.tween.IsPlaying()) ? 0f : sMove.speed;
+            angle = (transform.eulerAngles.y - lastRotY) * 10;
+            lastRotY = transform.eulerAngles.y;
             }
-            else
-            {
-                speed = nAgent.velocity.magnitude;
-                Vector3 velocity = Quaternion.Inverse(transform.rotation) * nAgent.desiredVelocity;
-                angle = Mathf.Atan2(velocity.x, velocity.z) * 180.0f / 3.14159f;
-            }
+            // else
+            // {
+            //     speed = nAgent.velocity.magnitude;
+            //     Vector3 velocity = Quaternion.Inverse(transform.rotation) * nAgent.desiredVelocity;
+            //     angle = Mathf.Atan2(velocity.x, velocity.z) * 180.0f / 3.14159f;
+            // }
 
             //push variables to the animator with some optional damping
             animator.SetFloat("Speed", speed);

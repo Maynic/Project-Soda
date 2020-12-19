@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 9968531d3bd03834c9346bce0fe0ec84
 ModelImporter:
-  serializedVersion: 19300
+  serializedVersion: 20101
   internalIDToNameTable: []
   externalObjects:
   - first:
@@ -73,11 +73,13 @@ ModelImporter:
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
     skinWeightsMode: 0
     maxBonesPerVertex: 4
@@ -87,6 +89,9 @@ ModelImporter:
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
@@ -101,8 +106,923 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
-    human: []
-    skeleton: []
+    human:
+    - boneName: B_Root
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: B_Thigh.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: B_Thigh.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: B_Shin.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: B_Shin.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: B_Foot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: B_Foot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: B_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: B_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: B_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: B_Calvicle.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: B_Calvicle.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: B_UpperArm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: B_UpperArm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: B_ForeArm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: B_ForeArm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: B_Hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: B_Hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: B_Toe.L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: B_Toe.R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: CharMale_01(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MaleBag_001
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleBag_002
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleBag_003
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleBag_004
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleBag_005
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleBag_006
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleBag_007
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleBag_008
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleBag_009
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleBag_010
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothAdd_001_Police
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothAdd_002_Soldier
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothAdd_003_Cafe
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothAdd_004_Cafe
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothAdd_005_Cafe
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothAdd_006_Shop
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothAdd_007_Shop
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleGlasses_001
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleGlasses_002
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleGlasses_003
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleGlasses_004
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleGlasses_005
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleGlasses_006
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleGlasses_007
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleGlasses_008
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothLower_001
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothLower_002
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothLower_003
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothLower_005
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothLower_006
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothLower_007
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothLower_008_Police
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothLower_009_Soldier
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothLower_010_Fireman
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothLower_011_Doctor
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothLower_012_Patient
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothLower_004
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothLower_013
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothLower_014
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_001
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_002
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_003
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_005
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_006
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_007
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_009
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_008
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_010_Police
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_011_Soldier
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_013_Fireman
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_014_Doctor
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_015_Nurse
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_017
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_004
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_012_Soldier
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_019
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_018
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_016_Patient
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_020
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_023
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_024
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_025
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_026
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_021
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothUpper_022
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleFace_001
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleFace_002
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleFace_003
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleFace_004
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleFace_005
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleFace_006
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleFace_007
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleFace_008
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleFace_009
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleFace_010
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleFace_011
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleFace_012
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleFace_015
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleFace_013
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleFace_014
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleFace_016
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleFace_017
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleFace_018
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleFace_019
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleFace_020
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_001
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_002
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_003
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_004
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_005
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_006
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_007
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_008
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_009
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_010
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_011
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_012
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_013
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_014
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_015
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_022
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_017
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_018
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_019
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_020
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothHat_001
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothHat_002_Cafe
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothHat_003_Fireman
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_021
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_016
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_023
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_024
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_032
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_025
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_026
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_027
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_031
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_028
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_029
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleHair_030
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleClothHat_004_Soldier
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleBody_001
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleBody_002
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleBody_004
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MaleBody_003
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: ArmatureMale
+      parentName: CharMale_01(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Master
+      parentName: ArmatureMale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -3.5527137e-15, z: 0.000000075497894, w: 0}
+      scale: {x: 1, y: 0.99998176, z: 0.99998176}
+    - name: B_Root
+      parentName: Master
+      position: {x: 9.93308e-10, y: -0.00018431901, z: -0.0065783816}
+      rotation: {x: -0.7042513, y: -0.000000053599777, z: -0.000000053169494, w: 0.7099508}
+      scale: {x: 1, y: 0.99999774, z: 0.99999774}
+    - name: B_Pelvis.L
+      parentName: B_Root
+      position: {x: 4.0114488e-17, y: -0.00017886519, z: -0.00046411005}
+      rotation: {x: -0.019599795, y: 0.67057264, z: 0.5510622, w: 0.49626476}
+      scale: {x: 1.0000194, y: 1.0000148, z: 1.0000072}
+    - name: B_Thigh.L
+      parentName: B_Pelvis.L
+      position: {x: 0.0005404934, y: 0.0010013382, z: -0.00022900068}
+      rotation: {x: 0.49563524, y: -0.6173711, z: 0.6100738, w: 0.031758346}
+      scale: {x: 0.9992163, y: 1.0004343, z: 1.0003986}
+    - name: B_Shin.L
+      parentName: B_Thigh.L
+      position: {x: 2.4152187e-11, y: 0.003204069, z: 2.8941755e-11}
+      rotation: {x: 0.14784712, y: -0.000000087544315, z: -0.000000029802319, w: 0.9890102}
+      scale: {x: 1.000002, y: 1.0001795, z: 0.9999544}
+    - name: B_Foot.L
+      parentName: B_Shin.L
+      position: {x: 5.0637914e-11, y: 0.0031568028, z: 1.1024994e-11}
+      rotation: {x: 0.00000003090136, y: 0.8396611, z: -0.5431107, w: -0.00000029440696}
+      scale: {x: 1.000058, y: 0.99965644, z: 1.0003928}
+    - name: B_Toe.L
+      parentName: B_Foot.L
+      position: {x: -5.4813983e-11, y: 0.00084858923, z: 1.3443504e-11}
+      rotation: {x: 0.23207149, y: 0.0000016283192, z: 0.00000046944942, w: 0.9726988}
+      scale: {x: 1.0000863, y: 1.0033284, z: 0.9967595}
+    - name: B_Spine
+      parentName: B_Root
+      position: {x: -1.1382005e-23, y: 0.0017864539, z: 1.3969838e-11}
+      rotation: {x: -0.0040301383, y: -1.0658141e-14, z: 3.5527137e-15, w: 0.9999919}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: B_Chest
+      parentName: B_Spine
+      position: {x: 1.277994e-24, y: 0.0015759313, z: -2.7884459e-11}
+      rotation: {x: -0, y: -0, z: 1.0587912e-22, w: 1}
+      scale: {x: 1, y: 1.0000026, z: 1.0000026}
+    - name: B_Neck
+      parentName: B_Chest
+      position: {x: 1.1745964e-24, y: 0.0016242652, z: -1.8626451e-11}
+      rotation: {x: -0.0000000577427, y: 0.9945204, z: 0.1045429, w: -0.0000005493086}
+      scale: {x: 1.0000292, y: 1.0000021, z: 1.0000212}
+    - name: B_Head
+      parentName: B_Neck
+      position: {x: -7.777105e-17, y: 0.001246511, z: -4.6566126e-11}
+      rotation: {x: 0.00000005774272, y: -0.9945204, z: -0.1045429, w: -0.00000054930854}
+      scale: {x: 1.0000288, y: 0.99999285, z: 1.0000303}
+    - name: B_Calvicle.L
+      parentName: B_Chest
+      position: {x: -0.00021999842, y: 0.0014499348, z: 0.00059999817}
+      rotation: {x: -0.5517077, y: 0.44485697, z: 0.41609463, w: 0.56972474}
+      scale: {x: 1.0000036, y: 1.0000182, z: 1.000019}
+    - name: B_UpperArm.L
+      parentName: B_Calvicle.L
+      position: {x: 2.334127e-10, y: 0.0016499382, z: 0.0000000011440374}
+      rotation: {x: 0.056534022, y: 0.011411697, z: -0.10827583, w: -0.99244654}
+      scale: {x: 1.0001061, y: 0.9999235, z: 0.9999978}
+    - name: B_ForeArm.L
+      parentName: B_UpperArm.L
+      position: {x: 6.984919e-12, y: 0.002314319, z: 0.0000000024605833}
+      rotation: {x: -0.026456313, y: -0.0001356117, z: -0.062118333, w: -0.9977181}
+      scale: {x: 1.0000134, y: 1.000069, z: 1.0000615}
+    - name: B_Hand.L
+      parentName: B_ForeArm.L
+      position: {x: -3.5215632e-11, y: 0.0022544211, z: 6.9604766e-10}
+      rotation: {x: 0.11947041, y: -0.003920454, z: 0.03794163, w: -0.99210477}
+      scale: {x: 0.999869, y: 1.0001605, z: 0.9999135}
+    - name: B_Calvicle.R
+      parentName: B_Chest
+      position: {x: 0.00021999842, y: 0.0014499348, z: 0.00059999817}
+      rotation: {x: -0.5517076, y: -0.44485697, z: -0.41609463, w: 0.5697248}
+      scale: {x: 1.0000036, y: 1.0000184, z: 1.000019}
+    - name: B_UpperArm.R
+      parentName: B_Calvicle.R
+      position: {x: -2.334127e-10, y: 0.0016499382, z: 0.0000000011440374}
+      rotation: {x: 0.056534022, y: -0.011411697, z: 0.10827574, w: -0.99244654}
+      scale: {x: 1.0001117, y: 0.9999352, z: 1.0000095}
+    - name: B_ForeArm.R
+      parentName: B_UpperArm.R
+      position: {x: 3.0267983e-11, y: 0.0023143184, z: 0.0000000015001569}
+      rotation: {x: 0.026456436, y: -0.00013568062, z: -0.062117986, w: 0.9977181}
+      scale: {x: 0.9999685, y: 1.0000403, z: 1.0000191}
+    - name: B_Hand.R
+      parentName: B_ForeArm.R
+      position: {x: -3.6670826e-11, y: 0.0022544216, z: -4.265803e-10}
+      rotation: {x: -0.11947024, y: -0.0039204587, z: 0.037941623, w: 0.9921048}
+      scale: {x: 0.99992985, y: 1.00021, z: 0.9999646}
+    - name: B_Pelvis.R
+      parentName: B_Root
+      position: {x: 4.012318e-17, y: -0.00017886519, z: -0.00046411005}
+      rotation: {x: 0.01959975, y: 0.67057264, z: 0.55106217, w: -0.49626482}
+      scale: {x: 1.0000179, y: 1.0000125, z: 1.0000103}
+    - name: B_Thigh.R
+      parentName: B_Pelvis.R
+      position: {x: -0.0005404934, y: 0.0010013382, z: -0.00022900068}
+      rotation: {x: -0.4956353, y: -0.6173711, z: 0.6100738, w: -0.0317584}
+      scale: {x: 0.9992196, y: 1.0004729, z: 1.0004255}
+    - name: B_Shin.R
+      parentName: B_Thigh.R
+      position: {x: -5.3858546e-11, y: 0.003204069, z: 4.144951e-11}
+      rotation: {x: 0.14784716, y: 0.00000006146728, z: 0.00000008940696, w: 0.9890103}
+      scale: {x: 0.9999992, y: 1.0001079, z: 0.9999631}
+    - name: B_Foot.R
+      parentName: B_Shin.R
+      position: {x: -4.7395348e-11, y: 0.0031568028, z: 9.533991e-12}
+      rotation: {x: -0.000000046337018, y: 0.83966106, z: -0.5431107, w: 0.00000023722866}
+      scale: {x: 1.0000069, y: 0.9994591, z: 1.0005392}
+    - name: B_Toe.R
+      parentName: B_Foot.R
+      position: {x: -1.1487202e-11, y: 0.00084858923, z: 3.0770052e-12}
+      rotation: {x: 0.2320714, y: -0.0000016299643, z: -0.0000004704899, w: 0.97269875}
+      scale: {x: 1.0000054, y: 1.0025098, z: 0.9975137}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5

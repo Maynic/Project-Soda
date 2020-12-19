@@ -129,3 +129,4 @@ Material:
     - _RimTint: {r: 0, g: 0, b: 0, a: 0}
     - _Tint: {r: 1, g: 1, b: 1, a: 0}
     - _ToonCol: {r: 0.24301353, g: 0.28988463, b: 0.4056604, a: 1}
+  m_BuildTextureStacks: []
